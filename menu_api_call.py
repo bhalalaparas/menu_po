@@ -6,10 +6,16 @@ import os
 import re
 import uuid
 from openai import OpenAI
+from env_loader import load_env_file
 
-MODEL_ID = "gpt-4.1"
-# client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-client = OpenAI(api_key="sk-proj-GeDY--EfHGyYrr0rVHGT6v6SoNT3BlbkFJ23iNmqNTWPT3TzlyD72XYNEfkOnv62JdznFxoF-h_qDQYmBYBiwEQPT4JC70hW68zHB8iipxUA")
+load_env_file()
+
+MODEL_ID = os.getenv("OPENAI_MODEL", "gpt-4.1")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise RuntimeError("Missing OPENAI_API_KEY. Set it in your environment or .env file.")
+
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")

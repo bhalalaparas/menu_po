@@ -1,8 +1,16 @@
 import base64
+import os
 from openai import OpenAI
+from env_loader import load_env_file
 
-client = OpenAI(api_key="sk-proj-GeDY--EfHGyYrr0rVHGT6v6SoNT3BlbkFJ23iNmqNTWPT3TzlyD72XYNEfkOnv62JdznFxoF-h_qDQYmBYBiwEQPT4JC70hW68zHB8iipxUA")
-MODEL = "gpt-4.1"
+load_env_file()
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise RuntimeError("Missing OPENAI_API_KEY. Set it in your environment or .env file.")
+
+client = OpenAI(api_key=OPENAI_API_KEY)
+MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1")
 
 def call_gpt_invoice_parser(prompt: str, image_path: str):
 
