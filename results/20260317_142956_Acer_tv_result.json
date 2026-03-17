@@ -1,0 +1,143 @@
+{
+  "inward_mapped": {
+    "ORTP_Inward": {
+      "nvarInwardID": "OD432418153758494100",
+      "dtInwardDate": "26-09-2024",
+      "nvarReferenceNo": "BFF842500431857",
+      "nvarInwardBy": "Flipkart Internet Private Limited",
+      "nvarDescription": "",
+      "dcmlInwardTotalCost": "27999.00",
+      "dtCreatedDate": "2026-03-17T14:30:51.019971",
+      "dtModifiedDate": "2026-03-17T14:30:51.019971",
+      "bitIsDeleted": false,
+      "IsEdit": false,
+      "VendorState": "Gujarat",
+      "lstInwardItems": [
+        {
+          "unqRowID": "77934150-cf4c-431f-984e-e2c702f7c99b",
+          "nvarInwardID": "OD432418153758494100",
+          "nvarItemNum": "998599",
+          "nvarItemName": "Offer Handling Fee",
+          "nvarCaseOrIndividual": "IMEI/Serial No: 2409ATDT50GXUX01377 IGST: 18.0 %",
+          "dcmlInwardQty": "1",
+          "dcmlItemCost": "49.00",
+          "dcmlInwardCost": "49.00",
+          "intStatus": 1,
+          "nvarOrderItemCounter": "1",
+          "intNumPerCase": null,
+          "intStockUnit": 1,
+          "dtCreatedDate": "2026-03-17T14:30:51.019971",
+          "dtModifiedDate": "2026-03-17T14:30:51.019971",
+          "bitIsDeleted": false,
+          "Index": 0
+        },
+        {
+          "unqRowID": "a93b0e5d-4a75-41d6-ba68-2d0b150946f5",
+          "nvarInwardID": "OD432418153758494100",
+          "nvarItemNum": "85287217",
+          "nvarItemName": "Acer Super Series 127 cm (50 inch) QLED Ultra HD (4K) Smart Google TV",
+          "nvarCaseOrIndividual": "Warranty: 1 Year Warranty IMEI/Serial No: 2409ATDT50GXUX01377",
+          "dcmlInwardQty": "1",
+          "dcmlItemCost": "31999.00",
+          "dcmlInwardCost": "27999.00",
+          "intStatus": 1,
+          "nvarOrderItemCounter": "2",
+          "intNumPerCase": null,
+          "intStockUnit": 1,
+          "dtCreatedDate": "2026-03-17T14:30:51.019971",
+          "dtModifiedDate": "2026-03-17T14:30:51.019971",
+          "bitIsDeleted": false,
+          "Index": 1
+        },
+        {
+          "unqRowID": "0aaa5c6c-bc49-4487-8d33-9bcebac16990",
+          "nvarInwardID": "OD432418153758494100",
+          "nvarItemNum": "0",
+          "nvarItemName": "Shipping And Handling Charges",
+          "nvarCaseOrIndividual": "Shipping And Handling Charges",
+          "dcmlInwardQty": "1",
+          "dcmlItemCost": "40.00",
+          "dcmlInwardCost": "0.00",
+          "intStatus": 1,
+          "nvarOrderItemCounter": "3",
+          "intNumPerCase": null,
+          "intStockUnit": 1,
+          "dtCreatedDate": "2026-03-17T14:30:51.019971",
+          "dtModifiedDate": "2026-03-17T14:30:51.019971",
+          "bitIsDeleted": false,
+          "Index": 2
+        }
+      ]
+    },
+    "ORTP_Vendors": {
+      "nvarCompany": "Hiten Laniya",
+      "nvarFirst_Name": "Hiten Laniya",
+      "nvarAddress_1": "B-403, vraj vatika 3, Near dwarkesh farm, vastral",
+      "nvarAddress_2": "Ahmedabad, 382418",
+      "nvarCity": "Ahmedabad",
+      "nvarState": "Gujarat",
+      "nvarZip_Code": "382418",
+      "nvarVendor_Terms": null
+    },
+    "ORTP_InwardItems": [
+      {
+        "unqRowID": "77934150-cf4c-431f-984e-e2c702f7c99b",
+        "nvarInwardID": "OD432418153758494100",
+        "nvarItemNum": "998599",
+        "nvarItemName": "Offer Handling Fee",
+        "nvarCaseOrIndividual": "IMEI/Serial No: 2409ATDT50GXUX01377 IGST: 18.0 %",
+        "dcmlInwardQty": "1",
+        "dcmlItemCost": "49.00",
+        "dcmlInwardCost": "49.00",
+        "intStatus": 1,
+        "nvarOrderItemCounter": "1",
+        "intNumPerCase": null,
+        "intStockUnit": 1,
+        "dtCreatedDate": "2026-03-17T14:30:51.019971",
+        "dtModifiedDate": "2026-03-17T14:30:51.019971",
+        "bitIsDeleted": false,
+        "Index": 0
+      },
+      {
+        "unqRowID": "a93b0e5d-4a75-41d6-ba68-2d0b150946f5",
+        "nvarInwardID": "OD432418153758494100",
+        "nvarItemNum": "85287217",
+        "nvarItemName": "Acer Super Series 127 cm (50 inch) QLED Ultra HD (4K) Smart Google TV",
+        "nvarCaseOrIndividual": "Warranty: 1 Year Warranty IMEI/Serial No: 2409ATDT50GXUX01377",
+        "dcmlInwardQty": "1",
+        "dcmlItemCost": "31999.00",
+        "dcmlInwardCost": "27999.00",
+        "intStatus": 1,
+        "nvarOrderItemCounter": "2",
+        "intNumPerCase": null,
+        "intStockUnit": 1,
+        "dtCreatedDate": "2026-03-17T14:30:51.019971",
+        "dtModifiedDate": "2026-03-17T14:30:51.019971",
+        "bitIsDeleted": false,
+        "Index": 1
+      },
+      {
+        "unqRowID": "0aaa5c6c-bc49-4487-8d33-9bcebac16990",
+        "nvarInwardID": "OD432418153758494100",
+        "nvarItemNum": "0",
+        "nvarItemName": "Shipping And Handling Charges",
+        "nvarCaseOrIndividual": "Shipping And Handling Charges",
+        "dcmlInwardQty": "1",
+        "dcmlItemCost": "40.00",
+        "dcmlInwardCost": "0.00",
+        "intStatus": 1,
+        "nvarOrderItemCounter": "3",
+        "intNumPerCase": null,
+        "intStockUnit": 1,
+        "dtCreatedDate": "2026-03-17T14:30:51.019971",
+        "dtModifiedDate": "2026-03-17T14:30:51.019971",
+        "bitIsDeleted": false,
+        "Index": 2
+      }
+    ]
+  },
+  "processing_info": {
+    "total_pages": 2,
+    "processed_at": "2026-03-17T14:30:51.019971"
+  }
+}
