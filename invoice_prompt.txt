@@ -1,0 +1,50 @@
+f"""
+You are an expert invoice parser. {page_context}
+
+Return ONLY valid JSON (no explanation) with these exact fields:
+
+{{
+  "page_number": {page_number},
+  "invoiceNo": "string or null",
+  "invoiceDate": "string or null",
+  "dueDate": "string or null",
+  "purchaseOrder": "string or null",
+  "customerCompany": "string or null",
+  "customerContact": "string or null",
+  "customerAddr1": "string or null",
+  "customerAddr2": "string or null",
+  "customerCity": "string or null",
+  "customerState": "string or null",
+  "customerZIP": "string or null",
+  "terms": "string or null",
+  "vendorName": "string or null",
+  "vendorAddress": "string or null",
+  "subtotal": "string or null",
+  "tax": "string or null",
+  "total": "string or null",
+  "line_items": [
+    {{
+      "qty": "string",
+      "ItemName": "string",
+      "itemDescription": "string",
+      "rate": "string or null",
+      "amt": "string",
+      "productCode": "string"
+    }}
+  ]
+}}
+
+CRITICAL RULES:
+1. Extract ALL visible line items from THIS page
+2. For page 1: prioritize invoice #, dates, customer/vendor info, product number/code/HSN code
+3. For last page: prioritize subtotal, tax, total
+4. Remove $ signs from amounts, keep decimals
+5. If field not visible, use "0"
+6. Return ONLY valid JSON, no markdown, no explanations
+
+Current page OCR (first 2000 chars):
+{ocr_text[:2000]}
+
+Context (first 2000 chars of all pages OCR):
+{all_ocr_text[:2000]}
+"""
