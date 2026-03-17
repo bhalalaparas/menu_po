@@ -86,10 +86,9 @@ async def process_menu(
         # 5️⃣ Transform JSON
         transformed_path = save_transformed_json(chatgpt_json, unique_id)
 
-        return {
-            "chatgpt_output_file": chatgpt_path,
-            "transformed_output_file": transformed_path
-        }
+        # Return ChatGPT output JSON content directly (read from saved file)
+        with open(transformed_path, "r", encoding="utf-8") as rf:
+            return json.load(rf)
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
