@@ -2,10 +2,14 @@
 
 import os
 import boto3
+from env_loader import load_env_file
 
 # Tesseract path
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+load_env_file()
+
+_tesseract_cmd = os.getenv("TESSERACT_CMD", r"C:\Program Files\Tesseract-OCR\tesseract.exe")
+pytesseract.pytesseract.tesseract_cmd = _tesseract_cmd
 
 UPLOAD_DIR = "uploads"
 RESULTS_DIR = "results"
