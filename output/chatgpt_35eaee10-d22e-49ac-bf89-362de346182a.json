@@ -1,0 +1,173 @@
+{
+  "categories": [
+    {
+      "category": "Family Platters",
+      "lstInvSize": true,
+      "lstInventoryModifiers": false,
+      "sizeType": null,
+      "modifierGroup": null,
+      "items": [
+        {
+          "name": "Marinated Skirt Steak",
+          "description": null,
+          "sizes": {
+            "Half": 95,
+            "Full": 195
+          },
+          "price": null,
+          "modifierGroup": null
+        },
+        {
+          "name": "Grilled Pork Loin Chops",
+          "description": null,
+          "sizes": {
+            "Half": 65,
+            "Full": 110
+          },
+          "price": null,
+          "modifierGroup": null
+        },
+        {
+          "name": "Sliced Brisket",
+          "description": null,
+          "sizes": {
+            "Half": 75,
+            "Full": 140
+          },
+          "price": null,
+          "modifierGroup": null
+        },
+        {
+          "name": "Pork Spare Ribs",
+          "description": null,
+          "sizes": {
+            "Half": 70,
+            "Full": 130
+          },
+          "price": null,
+          "modifierGroup": null
+        },
+        {
+          "name": "Pulled Pork",
+          "description": null,
+          "sizes": {
+            "Half": 65,
+            "Full": 110
+          },
+          "price": null,
+          "modifierGroup": null
+        },
+        {
+          "name": "Sausage",
+          "description": null,
+          "sizes": {
+            "Half": 55,
+            "Full": 120
+          },
+          "price": null,
+          "modifierGroup": null
+        },
+        {
+          "name": "Fried Chicken",
+          "description": null,
+          "sizes": {
+            "Half": 60,
+            "Full": 110
+          },
+          "price": null,
+          "modifierGroup": null
+        },
+        {
+          "name": "Sliced Pork Loin",
+          "description": null,
+          "sizes": {
+            "Half": 80,
+            "Full": 155
+          },
+          "price": null,
+          "modifierGroup": null
+        },
+        {
+          "name": "Chicken Skewers",
+          "description": null,
+          "sizes": {
+            "Half": 65,
+            "Full": 125
+          },
+          "price": null,
+          "modifierGroup": null
+        },
+        {
+          "name": "Vegetable Skewers",
+          "description": null,
+          "sizes": {
+            "Half": 55,
+            "Full": 115
+          },
+          "price": null,
+          "modifierGroup": null
+        }
+      ]
+    },
+    {
+      "category": "Sides",
+      "lstInvSize": true,
+      "lstInventoryModifiers": false,
+      "sizeType": null,
+      "modifierGroup": null,
+      "items": [
+        {
+          "name": "BBQ Baked Beans",
+          "description": null,
+          "sizes": {
+            "Small": 12,
+            "Large": 25
+          },
+          "price": null,
+          "modifierGroup": null
+        },
+        {
+          "name": "Coleslaw",
+          "description": null,
+          "sizes": {
+            "Small": 12,
+            "Large": 25
+          },
+          "price": null,
+          "modifierGroup": null
+        },
+        {
+          "name": "Cornbread",
+          "description": null,
+          "sizes": {
+            "Small": 14,
+            "Large": 28
+          },
+          "price": null,
+          "modifierGroup": null
+        },
+        {
+          "name": "Mac 'N Cheese",
+          "description": null,
+          "sizes": {
+            "Small": 13,
+            "Large": 26
+          },
+          "price": null,
+          "modifierGroup": null
+        },
+        {
+          "name": "Grilled Veggies",
+          "description": null,
+          "sizes": {
+            "Small": 15,
+            "Large": 30
+          },
+          "price": null,
+          "modifierGroup": null
+        }
+      ]
+    }
+  ],
+  "modifierGroups": []
+}

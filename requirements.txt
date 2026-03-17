@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+requests
+httpx
+openai
+boto3
+pydantic
+pytesseract
+pymupdf
+pillow
+opencv-python
