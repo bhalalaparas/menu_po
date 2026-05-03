@@ -1,0 +1,3498 @@
+[
+  {
+    "DepartmentName": "American Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Margherita Pizza",
+    "Id": "",
+    "ItemDescription": "lots of cheese",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 125,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "M",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 275,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 1
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "L",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 400,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 2
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "American Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Vegetarian Bite",
+    "Id": "",
+    "ItemDescription": "cheese, green pepper, tomato, onions",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 165,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "M",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 315,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 1
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "L",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 500,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 2
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "American Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Mushroom Riot",
+    "Id": "",
+    "ItemDescription": "cheese, mushroom, garlic, chilli",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 275,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "M",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 335,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 1
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "L",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 525,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 2
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "American Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Mexican Delight",
+    "Id": "",
+    "ItemDescription": "cheese, chilly, sweet corn, tomato, olives",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 245,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "M",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 360,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 1
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "L",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 545,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 2
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "American Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "American Heat",
+    "Id": "",
+    "ItemDescription": "cheese, green pepper, onion, baby corn, jalapeno",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 245,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "M",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 360,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 1
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "L",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 545,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 2
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "American Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Spicy Treat",
+    "Id": "",
+    "ItemDescription": "cheese, green pepper, spicy paneer, olives, jalapeno",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 245,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "M",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 360,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 1
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "L",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 545,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 2
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "American Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Hawaiian Fantasy",
+    "Id": "",
+    "ItemDescription": "cheese, mushroom, pineapple, bbq paneer jalapeno",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 265,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "M",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 420,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 1
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "L",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 570,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 2
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "American Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Fresh Veggi Special",
+    "Id": "",
+    "ItemDescription": "cheese, onion, green pepper, mushroom, tomato, olives, sweet corn, paneer",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 265,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "M",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 420,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 1
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "L",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 570,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 2
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "American Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Cheese Burst",
+    "Id": "",
+    "ItemDescription": "3 kind of cheese, onion, capsicum, paneer & jalapeno.",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 333,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "Desi Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Tandoori Paneer",
+    "Id": "",
+    "ItemDescription": "cheese, onion, green pepper, tomato, coriander, tandoori paneer, makhni sprinkle",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 225,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "M",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 335,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 1
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "L",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 525,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 2
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "Desi Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Yum Dum",
+    "Id": "",
+    "ItemDescription": "cheese, onion, spinach, spicy paneer, chilly, garlic, makhni sprinkle",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 245,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "M",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 360,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 1
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "L",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 545,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 2
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "Desi Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Balle Balle",
+    "Id": "",
+    "ItemDescription": "cheese, onion, tandoori paneer, chilly, coriander, makhani sprinkle",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 245,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "M",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 360,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 1
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "L",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 545,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 2
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "Desi Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Gujarati Treat",
+    "Id": "",
+    "ItemDescription": "cheese, onion, green pepper, chilly, garlic, green pea masala, tomato, coriander",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 265,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "M",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 420,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 1
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "L",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 570,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 2
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "Desi Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Chatpatta Paneer",
+    "Id": "",
+    "ItemDescription": "cheese, sweet corn, chatpatta paneer, tomato, coriander, chettinad sprinkle",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 265,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "M",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 420,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 1
+      },
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "L",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 570,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": false,
+        "intIndex": 2
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "Desi Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Pav Bhaji",
+    "Id": "",
+    "ItemDescription": "cheese, pavbhaji mix, butter, onion, tomato & coriander",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": true,
+    "lstInvSize": [
+      {
+        "nvarParentItemNum": "",
+        "nvarSizeItemNum": "",
+        "nvarSizeName": "R",
+        "dcmlCostOfGoods": 0,
+        "dcmlSizePrice": 299,
+        "bitIsActive": true,
+        "bitIsDeleted": false,
+        "bitIsDefaultSize": true,
+        "intIndex": 0
+      }
+    ],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "Italian Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Classic Margherita",
+    "Id": "",
+    "ItemDescription": "rustica tomato, basil & mozarella",
+    "Price": "250.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "250.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "Italian Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Funghi De Bosco",
+    "Id": "",
+    "ItemDescription": "mushrooms, garlic oil, basil, jalapenos & mozarella",
+    "Price": "350.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "350.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "Italian Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Giardinera",
+    "Id": "",
+    "ItemDescription": "mixed peppers, santos tomatoes, olives, mushrooms & cheese",
+    "Price": "280.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "280.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "Italian Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Char Grilled",
+    "Id": "",
+    "ItemDescription": "green & yellow zuccini, mixed peppers, rustica tomatoes, paprika with mozarella",
+    "Price": "280.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "280.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "Italian Veg Pizza",
+    "nvarItemNum": "",
+    "nvarItemName": "Quattro Formaggie",
+    "Id": "",
+    "ItemDescription": "mozzarella, cheddar, parmesean & cream cheese",
+    "Price": "350.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "350.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": [
+      {
+        "nvarModName": "Extra Cheese",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 0,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Cheese",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Choice of Sauces",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 1,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Choice of Sauces",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Upgrade to Thin Crust",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 2,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Upgrade to Thin Crust",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      },
+      {
+        "nvarModName": "Extra Veg Topping",
+        "nvarModNum": "",
+        "MinQty": 0,
+        "MaxQty": 1,
+        "intDisplayIndex": 3,
+        "intIsInclude": 0,
+        "bitIsHalf": false,
+        "bitIsDeleted": false,
+        "dcmlMOdiGrpPrice": 0,
+        "lstModItemOfModGrp": [
+          {
+            "Modifier": "Extra Veg Topping",
+            "ItemNum": "",
+            "ItemPrice": "0.00",
+            "bitIsDeleted": false,
+            "intDisplayIndex": 0,
+            "bitIsPreSelected": false,
+            "bitHasOverride": false,
+            "ModifierItemSizePrices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DepartmentName": "Breads",
+    "nvarItemNum": "",
+    "nvarItemName": "Garlic Bread",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "75.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "75.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Breads",
+    "nvarItemNum": "",
+    "nvarItemName": "Garlic Bread 'N' Cheese",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "115.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "115.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Breads",
+    "nvarItemNum": "",
+    "nvarItemName": "Supreme Garlic Bread",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "125.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "125.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Breads",
+    "nvarItemNum": "",
+    "nvarItemName": "Jain Bread",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "75.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "75.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Breads",
+    "nvarItemNum": "",
+    "nvarItemName": "Jain Bread 'N' Cheese",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "115.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "115.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Breads",
+    "nvarItemNum": "",
+    "nvarItemName": "Supreme Jain Bread",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "125.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "125.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Breads",
+    "nvarItemNum": "",
+    "nvarItemName": "Stuffed Garlic Bread",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "125.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "125.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Starter",
+    "nvarItemNum": "",
+    "nvarItemName": "Potato Wedges",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "90.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "90.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Starter",
+    "nvarItemNum": "",
+    "nvarItemName": "Cheesy Potato Pops",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "90.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "90.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Starter",
+    "nvarItemNum": "",
+    "nvarItemName": "Fresh Dough Bites",
+    "Id": "",
+    "ItemDescription": "cheese, pesto, garlic",
+    "Price": "90.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "90.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Starter",
+    "nvarItemNum": "",
+    "nvarItemName": "Signature French Fries",
+    "Id": "",
+    "ItemDescription": "choice of sauces: cream cheese, peanut butter, korean bbq",
+    "Price": "120.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "120.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Salad",
+    "nvarItemNum": "",
+    "nvarItemName": "Greek Salad",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "120.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "120.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Salad",
+    "nvarItemNum": "",
+    "nvarItemName": "Hawaiin Salad",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "120.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "120.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Salad",
+    "nvarItemNum": "",
+    "nvarItemName": "Russian Salad",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "120.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "120.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Salad",
+    "nvarItemNum": "",
+    "nvarItemName": "Mix Salad Bowl Veg",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "120.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "120.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Wrap",
+    "nvarItemNum": "",
+    "nvarItemName": "Veg Wrap",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "99.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "99.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Pasta",
+    "nvarItemNum": "",
+    "nvarItemName": "Roman Pasta",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "120.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "120.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Pasta",
+    "nvarItemNum": "",
+    "nvarItemName": "Creamy Indian Pasta",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "120.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "120.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Pasta",
+    "nvarItemNum": "",
+    "nvarItemName": "Pasta Alfredo",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "120.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "120.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Dessert",
+    "nvarItemNum": "",
+    "nvarItemName": "Brownie",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "90.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "90.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Dessert",
+    "nvarItemNum": "",
+    "nvarItemName": "Chocolate Pizza",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "120.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "120.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Beverages",
+    "nvarItemNum": "",
+    "nvarItemName": "Coke",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Beverages",
+    "nvarItemNum": "",
+    "nvarItemName": "Fanta",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Beverages",
+    "nvarItemNum": "",
+    "nvarItemName": "Sprite",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  },
+  {
+    "DepartmentName": "Beverages",
+    "nvarItemNum": "",
+    "nvarItemName": "Mineral Water",
+    "Id": "",
+    "ItemDescription": "",
+    "Price": "0.00",
+    "ItemType": "product",
+    "IsModifier": false,
+    "ModifierType": null,
+    "BonusPoints": 0,
+    "dcmlStock": "10.00",
+    "bitIsDeleted": false,
+    "IsDispalyInMenu": true,
+    "nvarDispalyItemName": "",
+    "dcmlOnlineItemPrice": "0.00",
+    "DisplayIndex": true,
+    "BrandID": "",
+    "ServiceMin": 0,
+    "IsAllowedZeroPrice": false,
+    "IsTracking": false,
+    "dcmlLowStockQty": "0.00",
+    "bitISSize": false,
+    "lstInvSize": [],
+    "lstInventoryModifiers": []
+  }
+]

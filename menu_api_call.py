@@ -5,17 +5,16 @@ import json
 import os
 import re
 import uuid
-from openai import OpenAI
 from env_loader import load_env_file
 
 load_env_file()
 
-MODEL_ID = os.getenv("OPENAI_MODEL", "gpt-4.1")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-if not OPENAI_API_KEY:
-    raise RuntimeError("Missing OPENAI_API_KEY. Set it in your environment or .env file.")
+from invoice_config import BRT
 
-client = OpenAI(api_key=OPENAI_API_KEY)
+MODEL_ID = os.getenv(
+    "BEDROCK_MENU_MODEL_ID",
+    "arn:aws:bedrock:us-east-1:078805859846:inference-profile/us.anthropic.claude-opus-4-7",
+)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
@@ -37,25 +36,38 @@ def extract_menu_from_image(image_bytes):
 
     encoded_image = base64.b64encode(image_bytes).decode("utf-8")
 
-    response = client.responses.create(
-        model=MODEL_ID,
-        input=[
-            {
-                "role": "user",
-                "content": [
-                    {"type": "input_text", "text": prompt_text},
-                    {
-                        "type": "input_image",
-                        "image_url": f"data:image/jpeg;base64,{encoded_image}",
-                    },
-                ],
-            }
-        ],
-        max_output_tokens=5000,
-        temperature=0,
+    content = [
+        {"type": "text", "text": prompt_text},
+        {
+            "type": "image",
+            "source": {
+                "type": "base64",
+                "media_type": "image/jpeg",
+                "data": encoded_image,
+            },
+        },
+    ]
+
+    body = {
+        "anthropic_version": "bedrock-2023-05-31",
+        "max_tokens": 5000,
+        "messages": [{"role": "user", "content": content}],
+    }
+
+    response = BRT.invoke_model(
+        modelId=MODEL_ID,
+        contentType="application/json",
+        accept="application/json",
+        body=json.dumps(body),
     )
 
-    raw_text = response.output[0].content[0].text.strip()
+    raw = response["body"].read().decode("utf-8")
+    parsed = json.loads(raw)
+    raw_text = ""
+    for part in parsed.get("content", []):
+        if part.get("type") == "text":
+            raw_text += part.get("text", "")
+    raw_text = raw_text.strip()
 
     raw_text = re.sub(r"^```json\s*", "", raw_text)
     raw_text = re.sub(r"^```", "", raw_text)
@@ -66,10 +78,10 @@ def extract_menu_from_image(image_bytes):
     # 🔹 Generate ONE UUID
     unique_id = str(uuid.uuid4())
 
-    chatgpt_filename = f"chatgpt_{unique_id}.json"
-    chatgpt_path = os.path.join(OUTPUT_DIR, chatgpt_filename)
+    out_filename = f"bedrock_{unique_id}.json"
+    out_path = os.path.join(OUTPUT_DIR, out_filename)
 
-    with open(chatgpt_path, "w", encoding="utf-8") as f:
+    with open(out_path, "w", encoding="utf-8") as f:
         json.dump(parsed_json, f, indent=2, ensure_ascii=False)
 
-    return parsed_json, unique_id, chatgpt_path
+    return parsed_json, unique_id, out_path

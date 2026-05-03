@@ -80,7 +80,7 @@ async def process_menu(
         with open(temp_file_path, "rb") as f:
             image_bytes = f.read()
 
-        # 4️⃣ Call ChatGPT
+        # 4️⃣ Call Bedrock (menu extraction)
         chatgpt_json, unique_id, chatgpt_path = extract_menu_from_image(image_bytes)
 
         # 5️⃣ Transform JSON
