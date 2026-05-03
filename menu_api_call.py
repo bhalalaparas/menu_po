@@ -10,6 +10,7 @@ from env_loader import load_env_file
 load_env_file()
 
 from invoice_config import BRT
+from bedrock_usage_log import log_bedrock_call
 
 MODEL_ID = os.getenv(
     "BEDROCK_MENU_MODEL_ID",
@@ -68,6 +69,14 @@ def extract_menu_from_image(image_bytes):
         if part.get("type") == "text":
             raw_text += part.get("text", "")
     raw_text = raw_text.strip()
+
+    log_bedrock_call(
+        source="menu_api_call",
+        model_id=MODEL_ID,
+        prompt=prompt_text,
+        output=raw_text,
+        parsed_response=parsed,
+    )
 
     raw_text = re.sub(r"^```json\s*", "", raw_text)
     raw_text = re.sub(r"^```", "", raw_text)

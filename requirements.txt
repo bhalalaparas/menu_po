@@ -4,6 +4,7 @@ requests
 httpx
 openai
 boto3
+openpyxl
 pydantic
 pytesseract
 pymupdf
