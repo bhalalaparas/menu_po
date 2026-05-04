@@ -36,6 +36,7 @@ prompt_text = load_prompt()
 def extract_menu_from_image(image_bytes):
 
     encoded_image = base64.b64encode(image_bytes).decode("utf-8")
+    
 
     content = [
         {"type": "text", "text": prompt_text},
