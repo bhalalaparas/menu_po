@@ -82,26 +82,37 @@ def ocr_image_to_text(image_path: str) -> str:
 
 def extract_json_from_model_text(text: str) -> Dict[str, Any]:
     """
-    Find the first JSON object in `text` and parse it. If parsing fails, return {}.
+    Parse the first complete JSON object in `text` (handles duplicate `{...}{...}` blobs).
     """
     if not text:
         return {}
     t = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.IGNORECASE)
+    decoder = json.JSONDecoder()
+    for i, ch in enumerate(t):
+        if ch != "{":
+            continue
+        try:
+            obj, _ = decoder.raw_decode(t[i:])
+            if isinstance(obj, dict):
+                return obj
+        except json.JSONDecodeError:
+            continue
+    # Fallback: greedy brace slice + trailing-comma cleanup (legacy)
     m = re.search(r"\{.*\}", t, flags=re.DOTALL)
     candidate = m.group(0) if m else t
-    # remove trailing commas before closing braces/brackets
     candidate = re.sub(r",(\s*[}\]])", r"\1", candidate)
     try:
-        return json.loads(candidate)
+        out = json.loads(candidate)
+        return out if isinstance(out, dict) else {}
     except Exception:
-        # try locating outermost braces
         start = candidate.find("{")
         end = candidate.rfind("}")
         if start != -1 and end != -1:
             try:
-                return json.loads(candidate[start:end+1])
+                out = json.loads(candidate[start : end + 1])
+                return out if isinstance(out, dict) else {}
             except Exception:
-                return {}
+                pass
     return {}
 
 import uuid
